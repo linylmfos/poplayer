@@ -1,0 +1,61 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+fieldset,img{ border: 0; }
+
+body{ background:#fff; color:#5e5e5e; font: 14px/2em Microsoft YaHei,SimSun,Arial; /*background-color: #eeeff1;*/ }
+ol,ul{ list-style: none; }
+
+/*Layout*/
+.container {
+    margin: 0 auto;
+    /*width: 1000px;*/
+    width: 960px;
+}
+
+
+/*header*/
+#header { 
+    font-family:'微软雅黑';
+    background:#2a2c2e;
+    height:60px;
+  }
+
+
+.header-container { 
+    width:100%
+  }
+
+  #nav{ height:60px;
+      /*width:980px;*/
+      margin:0 auto;
+      background:#2a2c2e;
+      position:relative;
+      z-index:99
+ }	
+
+ #nav a:hover { 
+     text-shadow:1px 1px 3px #666}
+
+ #login-area{
+     float:right;
+     margin-top:10px;
+     position:relative;
+  }
+  .login-btn {
+      font-family:'微软雅黑';  
+      width:100px;
+      height:40px;
+      background:#c9394a;
+      text-align:center;
+      display:block;
+      line-height:40px;
+      font-size:14px;
+      opacity:.9;
+      text-decoration:none;
+      color:#fff;
+      cursor:pointer
+}
+.login-btn:hover { 
+    opacity:1;
+  }
+
